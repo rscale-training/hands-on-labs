@@ -78,7 +78,7 @@ Now push your application:
 $ cf push first-push -p <PATH_TO_JAR> -b java_buildpack --random-route
 ```
 
-Be sure to replace `<PATH_TO_JAR>` with the full path to the jar file you downloaded. For example `~/Downloads/first-push.jar`.
+Be sure to replace `<PATH_TO_JAR>` with the full path to the jar file you downloaded. For example `~/Downloads/first-push-app.jar`.
 
 > Note: You can use `cf push --help` to see the details of the `push` command.
 
@@ -215,7 +215,7 @@ If you refresh your app in a browser multiple times, you will see the `App Insta
 
 ### Resiliency
 
-Behind the scenes, Cloud Foundry is also ensuring your application instances are running. To watch this, we will use the Pivotal Web Services console called `Apps Manager`. 
+Behind the scenes, Cloud Foundry is also ensuring your application instances are running. To watch this, we will use the Pivotal Web Services console called `Apps Manager`.
 
 > Note: Apps Manager is a Pivotal-only add on to Cloud Foundry.  It is not part of open source Cloud Foundry. We are using it in the interest of time.
 
